@@ -1,5 +1,5 @@
 {
-  "name": "joker",
+  "name": "example-joker",
   "version": "0.0.6",
   "description": "Application that tells jokes idk",
   "type": "module",
