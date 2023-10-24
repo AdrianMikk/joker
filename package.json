@@ -35,6 +35,14 @@
     "lint-staged": "^15.0.2"
   },
   "lint-staged": {
-    "*.js": "eslint --cache --fix"
+    "*.js": [
+    "prettier --write",
+    "eslint --fix" ],
+    "*.html": [
+      "prettier --write"
+    ],
+    "*.scss": [
+      "prettier --write"
+    ]
   }
 }
