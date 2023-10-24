@@ -1,6 +1,6 @@
 {
   "name": "adrian-package",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "Application that tells jokes idk",
   "type": "module",
   "main": "index.js",
