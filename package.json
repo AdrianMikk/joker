@@ -27,8 +27,7 @@
   ],
   "dependencies": {
     "adrian-package": "^0.0.6",
-    "give-me-a-joke": "^0.5.1",
-    "prettier": "^3.0.3"
+    "give-me-a-joke": "^0.5.1"
   },
   "devDependencies": {
     "eslint": "^8.52.0",
