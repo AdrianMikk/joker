@@ -1,12 +1,14 @@
 {
   "name": "adrian-package",
-  "version": "0.0.6",
+  "version": "0.1.1",
   "description": "Application that tells jokes idk",
   "type": "module",
   "main": "index.js",
   "scripts": {
-    "test": "node src/js/joker.js",
-    "format": "prettier -w src/js/joker.js"
+    "test": "node src/js/joker.test.js",
+    "format": "prettier -w src/**/*.js",
+    "lint": "eslint src/**/*.js",
+    "lint-fix": "eslint src/**/*.js --cache --fix"
   },
   "repository": {
     "type": "git",
@@ -25,5 +27,8 @@
   "dependencies": {
     "adrian-package": "^0.0.6",
     "give-me-a-joke": "^0.5.1"
+  },
+  "devDependencies": {
+    "eslint": "^8.52.0"
   }
 }
